@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Legba">
+      <UniqueIdentifier>{E06B970D-4C80-BFBE-1502-631E81D5BBEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Legba\Events">
+      <UniqueIdentifier>{C4FBC006-B05E-50AB-59E4-886145261C2E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Legba.h" />
+    <ClInclude Include="src\Legba\Application.h">
+      <Filter>Legba</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Legba\Core.h">
+      <Filter>Legba</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Legba\EntryPoint.h">
+      <Filter>Legba</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Legba\Events\ApplicationEvent.h">
+      <Filter>Legba\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Legba\Events\Event.h">
+      <Filter>Legba\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Legba\Events\KeyEvent.h">
+      <Filter>Legba\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Legba\Events\MouseEvent.h">
+      <Filter>Legba\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Legba\Log.h">
+      <Filter>Legba</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Legba\Application.cpp">
+      <Filter>Legba</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Legba\Log.cpp">
+      <Filter>Legba</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
